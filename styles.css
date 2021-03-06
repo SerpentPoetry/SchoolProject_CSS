@@ -1,0 +1,154 @@
+/*h1 font style Sacramento, h2 font style Montserrat, the rest of the text Merriweather */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    color: #66bfbf;
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+.hello-heading {
+    margin: 30px 0;
+}
+
+h3 {
+    color: #11999e;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 10px;
+    border-color: #eaf6f6;
+    width: 5%;
+    margin: 0 auto;
+
+}
+
+.top-container {
+    background-color: #eaf6f6;
+    padding-top: 120px;
+    position: relative;
+}
+
+.top-container h2 {
+    margin: 50px 0;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 80px;
+    right: 550px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 470px;
+}
+
+.profile img {
+    margin-top: 40px;
+}
+
+
+
+.profile p {
+    width: 20%;
+    margin: 0 auto 30px;
+    ;
+    line-height: 2;
+}
+
+
+.first-skill-section {
+    width: 35%;
+    margin: 0 auto;
+    line-height: 2;
+    text-align: left;
+}
+
+.webdev-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.second-skill-section {
+    width: 35%;
+    margin: 50px auto 50px;
+    line-height: 2;
+    text-align: left;
+}
+
+.chilli-img {
+    width: 25%;
+    float: right;
+
+}
+
+.contact-section p {
+    width: 29%;
+    line-height: 2;
+    margin: 10px auto 30px auto;
+}
+
+.btn {
+    background: #66bfbf;
+    background-image: -webkit-linear-gradient(top, #66bfbf, #2c8282);
+    background-image: -moz-linear-gradient(top, #66bfbf, #2c8282);
+    background-image: -ms-linear-gradient(top, #66bfbf, #2c8282);
+    background-image: -o-linear-gradient(top, #66bfbf, #2c8282);
+    background-image: linear-gradient(to bottom, #66bfbf, #2c8282);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding-bottom: 40px;
+    margin-top: 50px;
+
+}
+
+.bottom-container p {
+    color: #fff;
+    font-size: 1rem;
+
+
+}
+
+.social-links {
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #11999e;
+    font-size: 1rem;
+}
